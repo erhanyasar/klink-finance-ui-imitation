@@ -1,6 +1,6 @@
 "use client";
 
-import { WalletContextProps } from '@/models/store.model';
+import { ProviderProps, WalletContextProps } from '@/utils/types/store.model';
 import { ethers, ZeroAddress } from 'ethers';
 import { createContext, useContext, useState } from "react";
 
@@ -14,7 +14,7 @@ export const useWallet = () => {
     return context;
 }
 
-export default function WalletProvider({ children }: Readonly<{ children: React.ReactNode }>) {
+export default function WalletProvider({ children }: ProviderProps) {
     const [walletAddress, setWalletAddress] = useState<string>(ZeroAddress);
     const [balance, setBalance] = useState<string>('');
 
