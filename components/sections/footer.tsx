@@ -3,10 +3,10 @@ import Image from 'next/image';
 export default function Footer() {
     return (
         <>
-            <Image src="pointed-background.svg" alt="Klink logo" fill />
+            <Image src="img/pointed-background.svg" alt="Klink logo" fill />
             <footer className="row-start-3 flex gap-6 flex-wrap items-center justify-center">
                 <div>
-                    <Image src="klink-logo.svg" alt="Klink logo" width={380} height={46} />
+                    <Image src="img/klink-logo.svg" alt="Klink logo" width={380} height={46} />
                     <p>
                     Our mission is to activate millions of Web3 users through AI enabled wealth creation technology,
                     mutually servicing our community platform and providing partners with easy-to-embed integration
@@ -20,7 +20,7 @@ export default function Footer() {
                 Buy $KLINK Stake $KLINK Klink Docs Media Kit Link3
                 </div>
                 <p>Copyright © 2024 Klink Finance. All rights reserved.</p>
-                <div>
+                <div className='block md:hidden'>
                     <p>
                         Klink Finance sp. z o.o. is a limited liability company registered in Poland with company number
                         0000957722 with a registered office address at Twarda, 18, 00-105 Warsaw, Poland. Klink Finance is
