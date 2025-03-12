@@ -23,13 +23,13 @@
 
 To get started with this project, follow these steps:
 
-1. (Download [Git](https://git-scm.com/downloads) first) Open a terminal window and run the command below to clone the repository;
+1. Download [Git](https://git-scm.com/downloads) and open a terminal window and run the command below to clone the repository;
 
 ```bash
 git clone https://github.com/erhanyasar/klink-finance-ui-imitation
 ```
 
-2. (Download [Node.js](https://nodejs.org) first) Install the dependencies locally;
+2. Download [Node.js](https://nodejs.org) and install the dependencies locally;
 
 ```bash
 npm i
@@ -59,21 +59,19 @@ bun dev
 
 The following scripts are available in the `package.json`:
 
-- `dev`:
-    - Launches the app in the browser in the interactive watch mode.
+- `dev`: Launches the app in the browser in the interactive watch mode.
 - `build`:
     - Builds the app for production under the `.next` folder. Your app is ready to be deployed!
     - See the section about [deployment](https://nextjs.org/docs/app/building-your-application/deploying) for more information.
 - `start`:
     - Runs the app in the production mode.
     - Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-- `lint`:
-    - Runs the linter.
+- `lint`: Runs the linter.
 
 ## 📤 Deployment
 
 - Easily deploy your apps with [![Vercel](https://vercel.com/button)](https://vercel.com/)
-- Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- Check out [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
 
 ## 🚀 Learn More
 
