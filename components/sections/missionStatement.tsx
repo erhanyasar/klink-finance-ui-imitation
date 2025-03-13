@@ -10,11 +10,19 @@ export default function MissionStatement() {
                 src="/img/web3.png"
                 alt="WEB3 group"
                 className="top-464.41 left-0"
-                width={1778.9808349609375}
+                width={778.9808349609375}
                 height={105.8917236328125}
             />
 
             <Figures />
+
+            <Image
+                src="/img/hr.png"
+                alt="Horizontal line"
+                width={178.9808349609443}
+                height={1.51}
+                className="max-w-screen block lg:hidden h-[0.1rem]"
+            />
 
             <TheKlinkMission />
         </div>

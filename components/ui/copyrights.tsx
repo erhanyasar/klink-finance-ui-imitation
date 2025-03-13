@@ -8,7 +8,7 @@ export default function Copyrights() {
                 alt="Horizontal line"
                 width={178.9808349609443}
                 height={1.51}
-                className="my-[2.5rem] w-full block lg:hidden h-[0.1rem]"
+                className="my-[2.5rem] w-full block h-[0.1rem]"
             />
             <p className='text-sm opacity-20'>Copyright © 2024 Klink Finance. All rights reserved.</p>
             <Image
@@ -16,7 +16,7 @@ export default function Copyrights() {
                 alt="Horizontal line"
                 width={178.9808349609443}
                 height={1.51}
-                className="my-[2.5rem] w-full block lg:hidden h-[0.1rem]"
+                className="my-[2.5rem] w-full block md:hidden h-[0.1rem]"
             />
             <div className='block md:hidden text-sm opacity-20'>
                 <p>

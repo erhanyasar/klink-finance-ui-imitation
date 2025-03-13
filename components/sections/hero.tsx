@@ -1,4 +1,5 @@
 import Image from 'next/image';
+import Animations from '../animations';
 import Header from '../ui/header';
 
 export default function Hero() {
@@ -6,10 +7,10 @@ export default function Hero() {
         <>
             <Header />
             <Image
-                src="/img/mobile-hero.png"
+                src="/img/mobile/mobile-hero.png"
                 alt="Hero Mobile"
                 className="object-cover sm:hidden top-0 left-0"
-                width={351}
+                width={491}
                 height={788}
                 priority
             />
@@ -22,6 +23,8 @@ export default function Hero() {
                 height={995}
                 priority
             />
+
+            <Animations />
         </>
     )
 }

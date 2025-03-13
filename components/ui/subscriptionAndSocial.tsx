@@ -3,7 +3,7 @@ import Link from 'next/link';
 
 export default function SubscriptionAndSocials() {
     return (
-        <div className="w-full flex flex-col sm:flex-row items-end justify-around">
+        <div className="w-full flex flex-col md:flex-row items-center justify-center md:justify-around gap-25">
             <div className="flex flex-col justify-between gap-25">
                 <p className='text-lg opacity-50'>
                     Don’t miss <span className='font-bold'>$KLINK News & Promotions</span>, subscribe!
