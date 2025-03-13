@@ -1,7 +1,17 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  /* config options here */
+  images: {
+    remotePatterns: [
+      {
+        protocol: 'https',
+        hostname: 'klink-cdn.klink.finance',
+        port: '',
+        pathname: '/ecosystem/**',
+        search: '',
+      },
+    ],
+  },
 };
 
 export default nextConfig;
